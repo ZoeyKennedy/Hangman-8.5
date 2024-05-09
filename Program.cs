@@ -87,7 +87,7 @@ namespace Hangman_8._5
             while (hangman >= 6)
             { Console.WriteLine("Guess a letter");
                 Console.WriteLine();
-                guess = Console.ReadLine();
+                guess = Console.ReadLine(); 
                
                 if (secretWord.Contains(guess))
                 {
